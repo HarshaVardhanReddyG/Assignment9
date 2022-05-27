@@ -16,6 +16,8 @@ plt.rcParams["figure.autolayout"] = True
 
 
 y= np.linspace(-3, 0, 1000)
+plt.xlabel("y")
+plt.ylabel("F(y)")
 
 plt.plot(y, F(y), color='red')
 
